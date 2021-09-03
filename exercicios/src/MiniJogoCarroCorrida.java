@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CarroCorrida {
+public class MiniJogoCarroCorrida {
     Scanner input = new Scanner(System.in);
     private int numeroCarro;
     private String piloto;
@@ -10,7 +10,7 @@ public class CarroCorrida {
     private int velocidade;
     private boolean ligar = false;
 
-    public CarroCorrida() {
+    public MiniJogoCarroCorrida() {
         System.out.println("\n Digite o nome da sua equipe : ");
         this.equipe = input.nextLine();
         System.out.println("\n Digite o nome do Piloto : ");

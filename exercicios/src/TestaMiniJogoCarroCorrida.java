@@ -1,14 +1,13 @@
-import java.util.Locale;
 import java.util.Scanner;
 
-public class TestaCarroCorrida {
+public class TestaMiniJogoCarroCorrida {
     public static void main(String[] args) {
         boolean controle = true;
         boolean ligado;
         int escolha;
         int velocimetro;
         Scanner input = new Scanner(System.in);
-        CarroCorrida unoMile = new CarroCorrida();
+        MiniJogoCarroCorrida unoMile = new MiniJogoCarroCorrida();
         unoMile.instrucoes();
         System.out.println("Está na hora de começar, ligue o carro! ");
         do {
